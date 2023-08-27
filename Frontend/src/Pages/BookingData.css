@@ -1,0 +1,82 @@
+.movie-name{
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.movie-filter{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(43,49,72);
+    padding: 8px;
+}
+.movie-dates{
+    width:30%;
+    margin:8px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
+.dates{
+    width: 70%;
+
+}
+
+.react-multiple-carousel__arrow{
+    font-size: 4px;
+}
+.react-multiple-carousel__arrow::before {
+    font-size: 10px;
+}
+
+.seats-check{
+    justify-content: center;
+    padding: 13px;
+
+}
+
+
+
+
+
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+   
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+
+  .theatre-row{
+    border: 8px solid orange;
+    margin: 5px;
+  }
+
+  /*Latest Code*/
+/* 
+.book-row{
+    border:8px solid red;
+    
+} */
+
+.theatre-name{
+    margin: 8px;
+}
+.book-col,.book-col,.book-col{
+    border: 2px solid;
+    margin:10px;
+    padding: 8px;
+}
+.show-btn{
+    margin: 5px;
+}
+
+
+.breadcrumb{
+    margin:25px;
+}

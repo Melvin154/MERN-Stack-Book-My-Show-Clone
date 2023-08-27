@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+
+input[type="text"],
+ input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    flex-basis: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+
+.form{
+    padding: 10px;
+    border-radius: 7px;
+}
+.form-content{
+    margin: 5px;
+    padding: 8px;
+} 
+
+input[type="submit"] {
+    background-color:red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  input[type="submit"]:hover {
+    background-color:rgb(182, 111, 111);
+  }
+
+
+
+  .other-authentication{
+    text-align: center;
+
+  }
+.other-auth{
+    background-color: red;
+}

@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+
+
+/*Main Image*/
+.container-fluid-main {
+    position: relative;
+    margin: 0 auto; 
+    border-radius: 25px;
+    padding: 20px;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 15px;
+    height: 100%;
+    margin:35px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.left-image {
+    flex: 0 0 30%;
+    position: relative;
+}
+
+.left-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.button {
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+}
+
+.content-movies {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.movie-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.cast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cast-member {
+    flex: 0 0 calc(20% - 10px);
+    margin: 3px;
+    text-align: center;
+}
+
+.cast-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.cast-details{
+    text-align: center;
+}
