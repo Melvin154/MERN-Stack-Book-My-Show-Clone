@@ -75,16 +75,7 @@ const PremiresData = () => {
               </a>
             </button>
             <button type="button" class="btn btn-danger btn-lg">
-              <Link
-                to={`/book/${premireDetails.id}`}
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  margin: "5px",
-                }}
-              >
-                Book Tickets
-              </Link>
+BUY Rs.299/-
             </button>
           </div>
         </div>

@@ -28,7 +28,7 @@ router.post("/movies",async(req,res)=>{
 
 //GET Route
 
-//Get All Records(Not WOrking Properly)
+//Get All Records
 router.get("/movies",async(req,res)=>{
 try {
     const result=await movies.find()
@@ -51,7 +51,7 @@ try {
 })
 
 
-//Get Single records(Working)
+//Get Single records
 router.get("/movies/:id",async(req,res)=>{
 try {
     const _id=req.params.id;

@@ -146,7 +146,7 @@ const FeedBack = () => {
                 <div className="column feed-col">
                   <div className="row">
                     <div className="table-responsive">
-                      {" "}
+                      
                       <table
                         id="movies"
                         className="table table-striped table-hover table-bordered"

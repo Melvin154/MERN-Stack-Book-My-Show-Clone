@@ -37,3 +37,21 @@
     border: 1px solid #ddd;
     padding: 8px;
   }
+
+
+
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; /* Stack columns on small screens */
+  }
+  .feed-col {
+    flex: none;
+    margin-bottom: 10px; 
+  }
+}
+
+#movies {
+  table-layout: fixed;
+}
+

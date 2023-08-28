@@ -9,6 +9,7 @@ import StreamEvents from '../components/StreamsEvents/StreamEvents'
 
 import OnlineEventsList from "../components/OnlineEventsList/OnlineEventsList"
 import FeedBack from '../components/FeedBack/FeedBack'
+import SeatBooking from '../components/Seatings/Seating'
 
 
 
@@ -22,7 +23,7 @@ const HomePage = () => {
     <StreamEvents/>
     <Premires/>
     <OnlineEventsList/>
-    
+    <SeatBooking/>
     
    
     <Footer/>
