@@ -9,7 +9,6 @@ import StreamEvents from '../components/StreamsEvents/StreamEvents'
 
 import OnlineEventsList from "../components/OnlineEventsList/OnlineEventsList"
 import FeedBack from '../components/FeedBack/FeedBack'
-import SeatBooking from '../components/Seatings/Seating'
 
 
 
@@ -17,15 +16,16 @@ const HomePage = () => {
   return (
     <>
     <Header/> 
-        <Banner/>
-        <FeedBack/>
+    <Banner/>
     <MoviesList/>
     <StreamEvents/>
+    <Search/>
+    <FeedBack/>
     <Premires/>
     <OnlineEventsList/>
-    <SeatBooking/>
     
-   
+{/*    
+    <FeedBack/> */}
     <Footer/>
     
     

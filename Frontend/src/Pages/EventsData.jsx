@@ -5,6 +5,8 @@ import Footer from "../components/Footer/Footer";
 import { useParams } from "react-router-dom";
 import { EVENTSDATA } from "../eventsdata";
 
+import { Link } from "react-router-dom";
+
 const EventsData = () => {
   const paramsId = useParams();
   const [eventDetails, setEventDetails] = useState({});
@@ -45,6 +47,12 @@ const EventsData = () => {
               &#128197; {eventDetails.timeDate} &nbsp; &nbsp; | &#8982;{" "}
               {eventDetails.location} &nbsp; &nbsp;| &#x20B9;{" "}
               {eventDetails.ticketPrice}
+
+<Link to='/seating'>
+<button type="button" style={{margin:"5px"}} class="btn btn-danger">Book Tickets</button>
+
+</Link>
+
             </p>
           </div>
         </div>

@@ -44,7 +44,7 @@ const OnlineEventsList = () => {
             <div className="card" key={indx}>
                 <Link to={`/events/${item.id}`}>
                     <img src={item.eventCardImg}
-                        alt="MOVIE"/></Link>
+                        alt="MOVIEs"/></Link>
                       
                 <p  style={{display:"block",textAlign:"center"}}><b>{item.eventNameMain}</b><br />{item.genremain}</p>
             </div>

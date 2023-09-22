@@ -1,7 +1,9 @@
 
 .feed-container{
     border: 8px solid red;
+    background-color: rgb(43,49,72);
     margin:5px;
+    color: white;
 }
 .feed-row{
     border: 8px solid green;

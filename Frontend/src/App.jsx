@@ -12,6 +12,7 @@ import Signup from "./components/Auth/Signup";
 import BookingData from "./Pages/BookingData";
 import PremirePage from "./Pages/PremirePage";
 
+import Seating from "../src/components/Seatings/Seating";
 
 function App() {
   return (
@@ -29,10 +30,10 @@ function App() {
         <Route path="/events" element={<EventsPage />} />
         <Route path="/events/:id" element={<EventsData />} />
 
-        <Route path="/premire" element={<PremirePage/>}/>
-        <Route path="/premire/:id" element={<PremireData/>}/>
+        <Route path="/premire" element={<PremirePage />} />
+        <Route path="/premire/:id" element={<PremireData />} />
 
-
+        <Route path="/seating" element={<Seating />} />
 
         <Route path="*" element={<h3>404 Error Not Found</h3>} />
       </Routes>

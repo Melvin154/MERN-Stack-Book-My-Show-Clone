@@ -10,6 +10,8 @@ import { Link, useParams } from "react-router-dom";
 import { BOOKINGSDATA } from "../bookingsdata";
 import { MOVIESDATA } from "../moviesdata";
 
+import Seating from '../components/Seatings/Seating'
+
 //Rough Work
 
 const BookingData = () => {
@@ -172,9 +174,15 @@ const BookingData = () => {
                         <div className="col-3 book-col" key={index}>
                           Screen : {screen.ScreenNo}
                          
+
+<Link to='/seating'>
                           <button className="btn-sm btn-outline-success show-btn">{screen.showTime}<br/>
                           {screen.showDts}
 </button>
+
+</Link>
+
+
                         </div>
                       </>
                     );
